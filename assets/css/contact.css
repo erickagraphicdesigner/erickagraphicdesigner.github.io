@@ -1,0 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/10169ba6321e3fc300e3282476e3bb14?family=Monea+Alegante);
+@import url(https://fonts.cdnfonts.com/css/typonome);
+
+body{
+    margin: 0%;
+    background-color: rgb(255, 245, 232);
+}
+
+
+
+@media (min-width: 769px){
+    .title{
+        display: flex;
+        font-family: 'Monea Alegante', sans-serif;
+        font-size: 300%; 
+        color: #552934;  
+        margin-top: 7%;  
+        justify-content: center;
+    }
+    
+    .formasDeContacto{
+    text-align: center;
+    }
+    
+    .formasDeContacto img{
+    width: 7%;
+    
+    }
+}
+@media (max-width:768px){
+    .title{
+        text-align: center;
+        font-family: 'Monea Alegante', sans-serif;
+        color: #552934;  
+        font-size: 200%;
+        margin-top: 40%;
+    }
+    .formasDeContacto{
+        text-align: center;
+    }
+    .formasDeContacto img{
+        width: 10%;}
+}

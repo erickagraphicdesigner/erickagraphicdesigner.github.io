@@ -1,0 +1,174 @@
+@import url(//db.onlinewebfonts.com/c/10169ba6321e3fc300e3282476e3bb14?family=Monea+Alegante);
+@import url(https://fonts.cdnfonts.com/css/typonome);
+
+body{
+    width: 100%;
+    margin: 0%;
+    background-color: rgb(255, 245, 232);
+}
+
+
+.title h1{
+    font-family: 'Monea Alegante', sans-serif;
+    color: #552934;
+    font-size: 300%;  
+       
+}
+.contact a{
+    font-family: 'Monea Alegante', sans-serif;
+    color: #552934;
+
+}
+.subtitle{
+    font-family: 'TYPONOME', sans-serif;
+}
+.transition{
+    font-family: 'TYPONOME', sans-serif;
+    color: rgb(255, 245, 232);
+}
+.technologies{
+    font-family: 'TYPONOME', sans-serif;
+}
+.projects{
+    font-family: 'TYPONOME', sans-serif;
+    text-align: center;
+}
+
+
+
+.photo img:hover{
+    transition: all 0.3s;
+filter: brightness(50%);
+}
+
+/**Escritorio**/
+@media (min-width: 991px){
+    .title h1{
+        font-family: 'Monea Alegante', sans-serif;
+        color: #552934;
+        font-size: 500%;  
+           
+    }
+    .tablet{
+        display: none;
+
+    }
+    .mobile{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .header img{
+        width: 15%;
+    }
+    .contact{
+        display: flex;
+        font-size: 120%;
+    }
+    .contact a{
+        margin-left: 7%;
+    }
+    .title{
+    text-align: center;
+    margin-top: 10%;
+    }
+
+    .photo{
+text-align: center;
+    }
+    .photo img{
+        width: 30%;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px){
+    .title h1{
+        font-size: 400%;  
+           
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    .header img{
+        width: 15%;
+        margin-left: 3%;
+    }
+    .contact {
+        display: flex;
+        margin-right: 5%;
+        font-size: 120%;
+    }
+    .contact a{
+        margin-left: 5%;
+    }
+    .frontPage{
+        margin-top: 17%;
+    }
+    .title{
+        text-align: center;
+    }
+    .photo{
+        text-align: center;
+    }
+
+    .photo img{
+        width: 30%;
+    }
+}
+
+/**mobile**/
+
+@media (max-width:768px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .header{
+        display: flex;
+    }
+    .header img{
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .contact{
+        display: flex;
+        margin-right: 5%;
+        margin-top: 1%;
+        font-size: 110%;
+    }
+    .contact a{
+        margin-left: 5%;
+    }
+    .title{
+        font-size: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .photo{
+        text-align: center;
+    }
+    .photo img{
+        width: 90%;
+    }
+}
